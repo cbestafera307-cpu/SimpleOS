@@ -7,7 +7,10 @@
 
 
 #define log_error(x) \
-printf(RED "[ ERROR ]" RESET "%s", x)
+printf(RED "[ ERROR ]" RESET " %s", x)
 #define log_warning(x) \
-printf(GOLD "[ WARNING ]" RESET "%s", x)
-#define log_kernel(x) 
+printf(GOLD "[ WARNING ]" RESET " %s", x)
+#define log_kernel(x) \
+printf(BLUE "[ KERNEL ]" RESET " %s", x)
+#define log(x) \
+printf(GREEN "[ I/O ] RESET "%s", x)
