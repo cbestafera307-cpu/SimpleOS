@@ -14,3 +14,5 @@ printf(GOLD "[ WARNING ]" RESET " %s", x)
 printf(BLUE "[ KERNEL ]" RESET " %s", x)
 #define log(x) \
 printf(GREEN "[ I/O ] RESET "%s", x)
+
+#endif
