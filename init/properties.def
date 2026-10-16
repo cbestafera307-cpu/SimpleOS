@@ -1,7 +1,8 @@
-#define MODEL "Unknown"
+#define MODEL "Unknown/null"
 #define SYSTEM "SimpleOS v1 (1.0.0)"
 #define API_LEVEL 1
-#define SERIALCODE "Unknown"
+#define SERIALCODE "Unknown/null"
 #define CHIP "Unknown/Null"
 #define ROOT 0
 #define USERNAME "user"
+#define MANUFACTURER "Unknown/null"
