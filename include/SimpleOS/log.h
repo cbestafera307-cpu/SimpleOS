@@ -2,7 +2,7 @@
 #define SIMPLEOS_LOG_H
 
 #include <stdio.h>
-#include <colors.h>
+#include <SimpleOS/colors.h>
 
 
 
