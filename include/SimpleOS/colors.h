@@ -82,5 +82,5 @@
 #define SLATE_GRAY         0x708090
 
 #define MIDNIGHT_BLUE      0x191970
-
+#define RESET WHITE
 #endif
