@@ -3,6 +3,8 @@
 #include "/init/properties.def"
 #include <SimpleOS/log.h>
 
+extern void installrom(void);
+
 void bootloadermode() {
   printf("========================================================================================================================================\n");
   printf(" **** *** *   * ****  *     *****  ***   ****    ****   ***   ***  ***** *      ***   ***  ****  ***** ****     *   *  ***  ****  ***** \n");
@@ -22,7 +24,7 @@ void bootloadermode() {
     //not implemented 
   }
   else if (option == 2){
-    //not implemented
+    installrom();
   }
   else {
     log_error("%d not exist"); 
