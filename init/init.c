@@ -4,13 +4,13 @@
 #include <stdio.h> /* printf();, scanf(); */
 
 void __init__() {
-   printf("[      SimpleOS      ]");
-   printf("[                    ]");
-   printf("[                    ]");
-   printf("[        [OK]        ]");
-   printf("[                    ]");
-   printf("[(1): login          ]");
-   printf("[                    ]");
+   printf("[      SimpleOS      ]\n");
+   printf("[                    ]\n");
+   printf("[                    ]\n");
+   printf("[        [OK]        ]\n");
+   printf("[                    ]\n");
+   printf("[(1): login          ]\n");
+   printf("Info: The Language Is brazilian portuguese\n");
    int opc;
    scanf("option: %d", &opc);
 }
