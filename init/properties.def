@@ -6,3 +6,4 @@
 #define ROOT 0
 #define USERNAME "user"
 #define MANUFACTURER "Unknown/null"
+#define LANGUAGE "pt_br (Brazilian Portuguese)"
