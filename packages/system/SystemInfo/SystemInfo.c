@@ -1,1 +1,1 @@
-
+#include "/init/properties.def"
